@@ -76,3 +76,9 @@ EXPOSE 3000
 CMD ["npm", "run", "dev"]
 ```
 ---
+
+#### docker image create koro
+```bash
+docker build -t my-node-app .
+```
+---
