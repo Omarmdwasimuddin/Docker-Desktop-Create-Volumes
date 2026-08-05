@@ -7,8 +7,12 @@ npm i nodemon
 ```
 ---
 
-####
+#### package.json e add koro
 ```bash
-
+"dev": "nodemon index.js"
+```
+#### terminal e command daw
+```bash
+npm run dev
 ```
 ---
