@@ -1,4 +1,4 @@
-# Docker-Desktop: Create Volumes
+# Docker Desktop: Bind Mount & Live Reload
 
 #### Install
 > nodemon package install korle bar bar terminal e project run korte hoina update dekher jonno. kono kichu update korle ta project ekbar run korlei dekha jai.
