@@ -84,6 +84,8 @@ docker build -t my-node-app .
 ---
 
 #### create containers with volumes
+> containers create hobe terminal e project run hobe project e kichu update hole browser er output update hoyejabe.
 ```bash
 docker run --name my-containers -p 3000:3000 --rm -v "C:/Users/User/Desktop/Node App:/app" my-node-app
 ```
+---
