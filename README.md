@@ -63,3 +63,16 @@ npm run dev
 }
 ```
 ---
+
+#### dockerfile update koro
+> RUN npm install -g nodemon ei line nodemon ke globally install korbe. WORKDIR /app ei line diye work directory bole dibe. CMD ["npm", "run", "dev"] ei line e cmd command er jonno
+```bash
+FROM node:latest
+RUN npm install -g nodemon
+WORKDIR /app
+COPY . .
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "run", "dev"]
+```
+---
